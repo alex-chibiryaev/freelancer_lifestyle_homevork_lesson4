@@ -1,0 +1,145 @@
+@font-face {
+    font-family: 'Minion Pro';
+    src: url('../fonts/../fonts/MinionPro-Bold.woff2') format('woff2'),
+        url('../fonts/MinionPro-BoldIt.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Minion Pro';
+    src: url('../fonts/MinionPro-Regular.woff2') format('woff2'),
+        url('../fonts/MinionPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Minion Pro';
+    src: url('../fonts/MinionPro-It.woff2') format('woff2'),
+        url('../fonts/MinionPro-It.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Minion Pro';
+    src: url('../fonts/MinionPro-Bold.woff2') format('woff2'),
+        url('../fonts/MinionPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html {
+	font-family: "Montserrat";
+	font-size: 16px; 
+}
+h1 {
+	font-size: 30px;
+	font-weight: 700;
+}
+h2 {
+	font-size: 25px;
+	font-weight: 700;
+}
+h3 {
+	font-size: 20px;
+	font-weight: 700;
+}
+.img-first {
+	text-align: center;
+}
+.legend,
+.guardians,
+.betmen,
+.super {
+	font-family: "Cormorant";
+	font-size: 20px;
+}
+.kingdom,
+.lord,
+.runner,
+.footer {
+	font-family: "Minion Pro";
+	font-style: italic;
+}
+.first-one {
+	text-shadow: 5px 3px 2px #000000;
+}
+.first-two {
+	text-shadow: -5px -3px 5px #ff0000;
+}
+.mad-max-one {
+	text-align: right;
+}
+.mad-max-two {
+	text-align: justify;
+}
+.iamlegend-one {
+	text-transform: uppercase;
+}
+.iamlegend-two{
+	text-transform: lowercase;
+}
+.iamlegend-three {
+	text-transform: capitalize;
+}
+.daredevil-one {
+	letter-spacing: 10px;
+}
+.daredevil-two {
+	word-spacing: 10px;
+}
+.legend-one {
+	line-height: 200%;
+}
+.legend-two {
+	text-indent: 50px;
+}
+.guardians-one {
+	text-decoration: line-through;
+}
+.guardians-two {
+	text-decoration: overline;
+}
+.guardians-three {
+	text-decoration: underline;
+}
+.footer li {
+	text-decoration: underline;
+}
